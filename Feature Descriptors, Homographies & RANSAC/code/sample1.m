@@ -2,7 +2,7 @@ clc
 clear all
 close all
 
-addpath('C:\Users\archi\Desktop\Somaiya drive\Sem2\16720\hw2\data');
+addpath('.. \Feature Descriptors, Homographies & RANSAC\data');
 
 
 im1 = imread('incline_L.png');
@@ -16,9 +16,9 @@ im2 = imread('incline_R.png');
 im2 = im2double(rgb2gray(im2));
 
 
-[locs1, desc1] = briefLite(im1);
-[locs2, desc2] = briefLite(im2);
-
-[matches]= briefMatch(desc1,desc2,0.5);
-
-plotMatches(im1,im2,matches,locs1,locs2)
+% [locs1, desc1] = briefLite(im1);
+% [locs2, desc2] = briefLite(im2);
+% 
+% [matches]= briefMatch(desc1,desc2,0.5);
+% 
+% plotMatches(im1,im2,matches,locs1,locs2)

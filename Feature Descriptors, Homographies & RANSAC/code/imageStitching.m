@@ -7,3 +7,9 @@ function [panoImg] = imageStitching(img1, img2, H2to1)
 %
 % OUTPUT
 % Blends img1 and warped img2 and outputs the panorama image
+
+outsize = [600 1500];
+
+im2_wrap = warpH(img2,H2to1,outsize);
+
+panoImg = blendimage(img1,im2_wrap);
