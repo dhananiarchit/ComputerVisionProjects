@@ -3,7 +3,7 @@
 clc
 clear all
 close all
-addpath('C:\Users\archi\Desktop\Somaiya drive\Sem2\16720\hw0\release\data');
+addpath('..\data\');
 
 %% 1. Load images (all 3 channels)
 red1 = load('red.mat'); % Red channel

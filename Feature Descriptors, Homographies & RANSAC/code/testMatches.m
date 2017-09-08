@@ -8,11 +8,11 @@ img1 = imread('incline_L.png');
 img2 = imread('incline_R.png');
 
 % Converting to Gray Scale
-if size(im1,3) == 3
+if size(img1,3) == 3
     im1 = (rgb2gray(img1));
 end
 
-if size(im2,3) == 3
+if size(img2,3) == 3
     im2 = (rgb2gray(img2));
 end
 

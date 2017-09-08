@@ -2,7 +2,7 @@ clc
 clear all
 close all
 
-addpath('.. \Feature Descriptors, Homographies & RANSAC\data');
+addpath('..\Feature Descriptors, Homographies & RANSAC\data');
 
 
 im1 = imread('incline_L.png');
@@ -21,4 +21,4 @@ im2 = im2double(rgb2gray(im2));
 % 
 % [matches]= briefMatch(desc1,desc2,0.5);
 % 
-% plotMatches(im1,im2,matches,locs1,locs2)
+plotMatches(im1,im2,matches,locs1,locs2)

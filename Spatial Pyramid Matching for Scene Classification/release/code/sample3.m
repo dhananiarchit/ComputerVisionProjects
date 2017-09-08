@@ -1,8 +1,6 @@
 
-addpath('C:/Users/archi/Desktop/Somaiya drive/Sem2/16720/hw1/release/data/');
-
-addpath('C:\Users\archi\Desktop\Somaiya drive\Sem2\16720\hw1\release\data\ice_skating');
-
+addpath('../data/ice_skating');
+addpath('../data/');
 load sun_aamerccwdeptadrz.mat
 load dictionary.mat
 % imagesc(wordMap);
